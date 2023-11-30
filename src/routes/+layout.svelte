@@ -1,0 +1,12 @@
+<script>
+	import '../app.scss';
+	import { base } from '$app/paths';
+</script>
+
+<nav>
+	<a href="{base}/">Home</a>
+	<a href="{base}/test">Test</a>
+</nav>
+<div class="container">
+	<slot />
+</div>
