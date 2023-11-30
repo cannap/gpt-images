@@ -24,6 +24,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2
+        with:
+          version: 8
         id: pages
       - uses: actions/setup-node@v4
 
